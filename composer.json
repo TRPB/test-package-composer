@@ -1,0 +1,21 @@
+{
+    "name": "luizreginaldo/course-composer",
+    "description": "Package test",
+    "require": {
+        "php": ">=5.4",
+        "silex/silex": "1.3.*@stable"
+    },
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luiz Reginaldo",
+            "email": "contato@luizreginaldo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "LuizReginaldo\\SON\\": "src/LuizReginaldo/SON" }
+    }
+}
